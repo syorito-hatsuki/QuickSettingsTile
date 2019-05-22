@@ -43,11 +43,11 @@ public class MyTileService extends TileService {
     switch (tile.getState()) {
       case Tile.STATE_ACTIVE:
         tile.setState(Tile.STATE_INACTIVE);
-        tile.setIcon(Icon.createWithResource(this, R.drawable.ic_help_outline_black_24dp));
+        tile.setLabel("OFF");
         break;
       case Tile.STATE_INACTIVE:
         tile.setState(Tile.STATE_ACTIVE);
-        tile.setIcon(Icon.createWithResource(this, R.drawable.ic_help_black_24dp));
+        tile.setLabel("ON");
         break;
     }
     tile.updateTile();

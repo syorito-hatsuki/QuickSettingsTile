@@ -20,7 +20,7 @@
     </activity>
     <service
       android:icon="@drawable/ic_help_outline_black_24dp"
-      android:label="HELP!!!"
+      android:label="OFF"
       android:name=".Services.MyTileService"
       android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
       tools:ignore="InnerclassSeparator">

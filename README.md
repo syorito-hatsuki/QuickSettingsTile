@@ -5,5 +5,9 @@
 ## Description
 Simple template for create quick setting tile
 
+Minimal android version 4.4
+
+[APK for testing](https://github.com/syorito-hatsuki/QuickSettingsTile/blob/master/app-debug.apk?raw=true)
+
 ## License
 [GNU General Public License v3.0](https://github.com/syorito-hatsuki/QuickSettingsTile/blob/master/LICENSE)
